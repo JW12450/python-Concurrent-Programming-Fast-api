@@ -12,6 +12,7 @@ def main():
     delivery("A", 1)
     delivery("B", 1)
     delivery("C", 1)
+    return None
 
 
 if __name__ == "__main__":

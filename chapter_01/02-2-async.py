@@ -11,7 +11,7 @@ async def delivery(name, mealtime):
 
 
 async def main():
-
+    ## awaitable한 객체들이 gather안에 들어 있으면, 각각의 인자들이 동시성을 기반으로 실행 됨.
     result = await asyncio.gather(
         delivery("A", 1),
         delivery("B", 2),
